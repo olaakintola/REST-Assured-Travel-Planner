@@ -1,0 +1,59 @@
+[
+    {
+        "place_id": 228849,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 52271772,
+        "boundingbox": [
+            "53.3830832",
+            "53.4630832",
+            "-7.982705",
+            "-7.902705"
+        ],
+        "lat": "53.4230832",
+        "lon": "-7.942705",
+        "display_name": "Athlone, The Municipal District of Athlone — Moate, County Westmeath, Leinster, N37 N1F2, Éire / Ireland",
+        "class": "place",
+        "type": "town",
+        "importance": 0.6793898360007938,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_place_town.p.20.png"
+    },
+    {
+        "place_id": 257902643,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 6754822,
+        "boundingbox": [
+            "53.4293793",
+            "53.437105",
+            "-7.9541694",
+            "-7.9270057"
+        ],
+        "lat": "53.433884",
+        "lon": "-7.940385423000269",
+        "display_name": "Athlone, Athlone East Rural ED, The Municipal District of Athlone — Moate, County Westmeath, Leinster, Éire / Ireland",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.45,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": 257401262,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 4185181,
+        "boundingbox": [
+            "53.4208105",
+            "53.4320466",
+            "-7.9500954",
+            "-7.9266337"
+        ],
+        "lat": "53.4264501",
+        "lon": "-7.939074000742334",
+        "display_name": "Athlone, Athlone East Urban ED, The Municipal District of Athlone — Moate, County Westmeath, Leinster, N37 N1F2, Éire / Ireland",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.45,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons//poi_boundary_administrative.p.20.png"
+    }
+]

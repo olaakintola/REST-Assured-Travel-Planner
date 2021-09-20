@@ -1,0 +1,13 @@
+# Allows for access to the Eureka Server dashboard in browser.
+apiVersion: v1
+kind: Service
+metadata:
+  name: eureka-proxy
+spec:
+  type: NodePort
+  ports:
+    - port: 8761
+      targetPort: 8761
+      nodePort: 32001
+  selector: 
+    app: eureka

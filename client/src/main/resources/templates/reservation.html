@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<meta name = "viewport" content="width = device-width, intial-scale = 1">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+		<style type="text/css">
+
+			.footer {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: white;
+				color: black;
+				text-align: left;
+				padding-right: 1%;
+			}
+
+			table {
+			    counter-reset: tableCount;     
+			}
+			.counterCell:before {              
+			    content: counter(tableCount); 
+			    counter-increment: tableCount; 
+			}
+
+
+		</style>
+
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script src="javascript/script.js"></script>
+		<script src="script.js"></script>
+
+
+	</head>
+	<body>
+		<div class="container">
+		  <div class="row">
+		    <div class="col">
+		    	<h1>REST Assured Travel Planner</h1>
+		    </div>
+		    <div class="col-md-auto">
+		    </div>
+		    <div class="col col-lg-2">
+				<button type="button" class="btn btn-outline-info">Terms and Conditions</button>
+				<form action="/home" class="inline" method="post">
+					<button name="homeButton" class="float-right submit-button" type="submit" value="0">Go Back to Home page</button>
+				</form>
+		    </div>
+		  </div>
+		</div>
+		<hr style="color: green; display: block;" >
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12"><h5>Your Boooking Reservation</h5>
+                        <div class="container">
+							<table class="table">
+								<col style="width: 20%"/>
+                            	<col style="width: 80%"/>
+								<tr>
+									<td><b>REFERENCE ID - </b></td>
+									<td th:text="${userBooking.getRefId()} "></td>	
+								</tr>
+								<tr>
+									<td><b>FLIGHT - </b></td>
+									 <td>
+							            <p th:each="str : ${userBooking.getFlight()}">
+							                <li th:text="${str}"></li>
+							            </p>
+							        </td>
+								</tr>
+								<tr>
+									<td><b>HOTEL - </b></td>
+									<td>
+							            <p th:each="str1 : ${userBooking.getHotel()}">
+							                <li th:text="${str1}"></li>
+							            </p>
+							        </td>
+								</tr>
+								<tr>
+									<td><b>ACTIVITIES - </b></td>
+									<td th:unless="${userBooking.getActivities()[0]==null}">
+							            <p th:each="str2 : ${userBooking.getActivities()}">
+							                <li th:text="${str2}"></li>
+							            </p>
+									</td>
+									<td>
+										<td th:if="${userBooking.getActivities()[0]==null}">
+											NONE selected/available
+										</td>
+									</td>
+								</tr>
+								<tr>
+									
+								</tr>
+								<tr>
+									<td><b>ATTRACTIONS - </b></td>
+									<td th:unless="${userBooking.getAttractions()[0]==null}">
+							            <p th:each="str3 : ${userBooking.getAttractions()}">
+							                <li th:text="${str3}"></li>
+							            </p>
+									</td>
+									<td th:if="${userBooking.getAttractions()[0]==null}">
+										NONE selected/available
+									</td>
+								</tr>
+							</table>
+                        </div>
+                        <br>
+						<br>
+ 						<br>
+				</div>
+			</div>
+		</div>
+		 <div class="footer">
+		 	<p>&copy; 2021 Email: <a href="mailto:olanipekun.akintola@ucdconnect.ie">olanipekun.akintola@ucdconnect.ie</a>.</p>
+ 		 </div>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	</body>
+    </html>

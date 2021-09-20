@@ -1,0 +1,508 @@
+{
+    "meta": {
+        "count": 20,
+        "self": "https://test.api.amadeus.com/v1/shopping/activities/by-square?north=52.541755&west=13.354201&south=52.490569&east=13.457198&key=NtWb3s6JM63zuZ4q2X5eLg7F7gnRmW5LZLbzfAsxsGmw9RLQE8QVTvyt3wee"
+    },
+    "data": [
+        {
+            "id": "5097",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/5097",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Pergamon Museum and Asisi PANORAMA of ancient world skip-the-line combo ticket",
+            "shortDescription": "See the world famous Pergamon Museum and Asisi's 360° panorama of the ancient world – two must sees in Berlin with one skip-the-line ticket.",
+            "geoCode": {
+                "latitude": "52.521183",
+                "longitude": "13.394711"
+            },
+            "rating": "4.400000",
+            "pictures": [
+                "https://images.musement.com/cover/0001/71/thumb_70280_cover_header.jpeg?w=500"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/cPp5G4Sr?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "19.00"
+            }
+        },
+        {
+            "id": "105193",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105193",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Discover Berlin Walking Tour",
+            "shortDescription": "Explore Berlin on a comprehensive 3.5 to 4-hour walking tour, starting from our meeting point in central Berlin. See all the major sights, from the Brandenburg Gate to Museum Island, and hear stories of the city’s residents from enthusiastic guides.",
+            "geoCode": {
+                "latitude": "52.523278",
+                "longitude": "13.402210"
+            },
+            "rating": "4.856000",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-301489-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/Ql9tAYjBlj?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "14.00"
+            }
+        },
+        {
+            "id": "105197",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105197",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: 75-minute Trabi Safari",
+            "shortDescription": "Drive through Berlin in the official car of the DDR! Squeeze yourself behind the wheel of a Trabant of your choice and putter around the capital. See the most interesting sights and get your very own souvenir Trabant-driver's license!",
+            "geoCode": {
+                "latitude": "52.507655",
+                "longitude": "13.386191"
+            },
+            "rating": "4.792500",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-308223-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/XHVv3Px0xi?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "49.00"
+            }
+        },
+        {
+            "id": "105213",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105213",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: Madame Tussauds Admission Ticket",
+            "shortDescription": "Accept your exclusive invitation to Madame Tussauds Berlin! Star in immersive experiences like House of Berlin Colors and VIP Party. Get up close and personal with more than 120 lifelike wax figures of your favorite celebrities.",
+            "geoCode": {
+                "latitude": "52.517089",
+                "longitude": "13.381611"
+            },
+            "rating": "4.506000",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2161177-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/nB7e4FxyXb?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "19.00"
+            }
+        },
+        {
+            "id": "105216",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105216",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "From Berlin: Sachsenhausen Memorial Walking Tour",
+            "shortDescription": "Step inside Sachsenhausen Memorial and learn of the site’s terrible history and see poignant memorials, such as the killing center and gallows.",
+            "geoCode": {
+                "latitude": "52.516749",
+                "longitude": "13.379791"
+            },
+            "rating": "4.750800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-943740-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/276OyImojY?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "18.00"
+            }
+        },
+        {
+            "id": "105222",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105222",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin WelcomeCard: Discounts & Transport Berlin Zones (ABC)",
+            "shortDescription": "Explore Berlin with a 48-hour, 72-hour, 4-day, 5-day, or 6-day Berlin WelcomeCard. Ride public transport in the ABC zones, including Schönefeld Airport, receive discounts of up to 50% with over 200 partners, and benefit from the pocket travel guide.",
+            "geoCode": {
+                "latitude": "52.525011",
+                "longitude": "13.369460"
+            },
+            "rating": "4.595800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-1408487-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/7q55FcPq41?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "23.00"
+            }
+        },
+        {
+            "id": "105301",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105301",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "1-Hour City Tour by Boat with Guaranteed Seating",
+            "shortDescription": "On this tour, you will get to learn about the intriguing history of Berlin and see all the major attractions from the comfort of a river cruise. Travel through Berlin on a 1-hour river cruise from Friedrichstraße or Nikolaiviertel.",
+            "geoCode": {
+                "latitude": "52.521848",
+                "longitude": "13.388702"
+            },
+            "rating": "4.325400",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-1066973-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/siaS0isAni?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "15.00"
+            }
+        },
+        {
+            "id": "105486",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105486",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Tour in German: Reichstag Dome & Government District",
+            "shortDescription": "Enjoy a guided tour through Berlin's parliament and government district and visit the dome of the Reichstag. Learn more about history, architecture, and politics, while you explore the Brandenburg Gate, Pariser Platz and others landmarks.",
+            "geoCode": {
+                "latitude": "52.516088",
+                "longitude": "13.380235"
+            },
+            "rating": "4.723600",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-273706-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/fSgYeXuQjm?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "14.00"
+            }
+        },
+        {
+            "id": "105510",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105510",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: Reichstag with Plenary Chamber & Cupola in German",
+            "shortDescription": "Enjoy an exciting 2-hour tour of the government district and the Reichstag building in Berlin. Learn more about the history, architecture, and everyday politics in the government district, and visit the plenary chamber and dome of the Reichstag building.",
+            "geoCode": {
+                "latitude": "52.518806",
+                "longitude": "13.380489"
+            },
+            "rating": "4.719400",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-306362-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/7lVe9xzest?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "14.00"
+            }
+        },
+        {
+            "id": "105512",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105512",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: Brandenburg Gate and Reichstag Dome",
+            "shortDescription": "Skip the lines and head to the famous glass dome of Berlin's Reichstag without delay. Enjoy sweeping views of the entire city from the rooftop. Hear fascinating stories about Berlin's colorful past and see some of the city’s most important sites.",
+            "geoCode": {
+                "latitude": "52.515830",
+                "longitude": "13.379610"
+            },
+            "rating": "4.680100",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-305781-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/SnaoNXUIgA?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "25.00"
+            }
+        },
+        {
+            "id": "105514",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105514",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: 2.5-Hour Boat Tour Along the River Spree",
+            "shortDescription": "Enjoy a 2.5-hour boat cruise along the River Spree and learn interesting facts about Berlin. Explore the main attractions in the city from the water including the government district, Bellevue Palace, Berlin Cathedral, and Museum Island.",
+            "geoCode": {
+                "latitude": "52.521694",
+                "longitude": "13.387720"
+            },
+            "rating": "4.313000",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-338966-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/OsDnYWNr6H?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "20.00"
+            }
+        },
+        {
+            "id": "105531",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105531",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: 3.5-Hour Spree & Landwehrkanal Boat Tour",
+            "shortDescription": "Discover the Berlin skyline from the water and see more than 40 bridges over the Landwehr Canal and river Spree. On this 4-hour boat tour, admire the diverse architecture of the city and see the Museum Island and Potsdamer Platz.",
+            "geoCode": {
+                "latitude": "52.521534",
+                "longitude": "13.387865"
+            },
+            "rating": "4.424800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-336287-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/MobkuYAQCu?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "23.00"
+            }
+        },
+        {
+            "id": "105535",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105535",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip the Line: Pergamon Museum & Asisi Panorama Tickets",
+            "shortDescription": "Skip the long lines and visit the Pergamon Museum with 3 impressive collections, including the new exhibition, Das Panorama. See pieces from antiquity, discover the Middle East Museum and the Islamic Art Museum.",
+            "geoCode": {
+                "latitude": "52.519952",
+                "longitude": "13.397082"
+            },
+            "rating": "4.714900",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-587739-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/MZAEyoj7bt?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "19.00"
+            }
+        },
+        {
+            "id": "105539",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105539",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Walking Tour in German: Gov. District & Reichstag with Dome",
+            "shortDescription": "Enjoy a guided tour of the parliament quarter in Berlin in German and learn more about the troubled and eventful history of the capital.",
+            "geoCode": {
+                "latitude": "52.515938",
+                "longitude": "13.379472"
+            },
+            "rating": "4.759600",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-830280-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/VpSqZMgXTD?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "15.00"
+            }
+        },
+        {
+            "id": "105541",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105541",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin Reichstag and Glass Dome: 2-Hour Tour in English",
+            "shortDescription": "Explore Berlin’s Government District and the Reichstag Cupola on a 2-hour English-speaking tour. Learn more about the destiny of the once divided metropolis, and see the new buildings of the administrative district, including Foster’s stunning Reichstag.",
+            "geoCode": {
+                "latitude": "52.516006",
+                "longitude": "13.380476"
+            },
+            "rating": "4.650000",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-345446-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/mjaRL14SG3?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "15.00"
+            }
+        },
+        {
+            "id": "105577",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105577",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Reichstag: Rooftop Coffee Break at Käfer",
+            "shortDescription": "Visit the Reichstag and enjoy a beautiful view of Berlin from the famed glass dome. Have coffee and cake at the rooftop restaurant at a table reserved specially for you.",
+            "geoCode": {
+                "latitude": "52.517885",
+                "longitude": "13.376075"
+            },
+            "rating": "4.504900",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-1507567-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/m8JCJPY5R6?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "20.00"
+            }
+        },
+        {
+            "id": "105645",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/105645",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip the Line: Neues Museum Berlin Ticket",
+            "shortDescription": "Visit the Neues Museum and gaze in wonder at exhibits from the Egyptian Museum, the Antique Collection and the Museum of Prehistory and Early History.",
+            "geoCode": {
+                "latitude": "52.519952",
+                "longitude": "13.397082"
+            },
+            "rating": "4.698100",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-467332-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/WukCPu6z7K?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "12.00"
+            }
+        },
+        {
+            "id": "125282",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/125282",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin Reichstag and Glass Dome Private Tour",
+            "shortDescription": "Discover the highlights of Berlin's parliamentary quarter on a private tour, and then head up to the glass dome roof for panoramic views over the city.",
+            "geoCode": {
+                "latitude": "52.515932",
+                "longitude": "13.379460"
+            },
+            "rating": "4.689200",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-846401-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/TuJTAWehQP?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "195.00"
+            }
+        },
+        {
+            "id": "203783",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/203783",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin TV Tower: Fast View & Window Seat Restaurant Ticket",
+            "shortDescription": "Enjoy VIP entry to the panorama floor of Berlin's TV Tower and take a seat at the window. See the city and all its sights such as Potsdamer Platz, the Brandenburg Gate, the cathedral and the Olympic Stadium, from 200 meters above.",
+            "geoCode": {
+                "latitude": "52.520815",
+                "longitude": "13.409419"
+            },
+            "rating": "4.727500",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2338405-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/DVsDphBR9m?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "25.00"
+            }
+        },
+        {
+            "id": "203809",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/203809",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Berlin: TV Tower Fast View Ticket",
+            "shortDescription": "Offering breathtaking views over the German capital, the TV Tower cuts a striking image against the Berlin skyline. Secure yourself a hassle-free entrance ticket to this famous city attraction and bypass the infamous queues of people lining up outside.",
+            "geoCode": {
+                "latitude": "52.520815",
+                "longitude": "13.409419"
+            },
+            "rating": "4.464500",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2119950-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/UqqAurS7Dm?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "22.00"
+            }
+        }
+    ]
+}

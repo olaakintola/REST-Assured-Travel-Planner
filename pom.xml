@@ -1,0 +1,18 @@
+<project>
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>quaranteam</groupId>
+      <artifactId>restAssured</artifactId>
+      <version>0.0.1</version>
+      <packaging>pom</packaging>       
+      
+      <modules>
+            <module>client</module> 
+            <module>hotels</module>
+            <module>travel_agent</module> 
+            <module>flights</module>
+            <module>core</module>
+            <module>activities</module>
+            <module>attractions</module>
+            <module>eureka</module>
+      </modules>          
+</project>

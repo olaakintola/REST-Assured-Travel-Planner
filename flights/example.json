@@ -1,0 +1,38 @@
+{
+  "Places" : [ {
+    "PlaceId" : "PARI-sky",
+    "PlaceName" : "Paris",
+    "CountryId" : "FR-sky",
+    "RegionId" : "",
+    "CityId" : "PARI-sky",
+    "CountryName" : "France"
+  }, {
+    "PlaceId" : "CDG-sky",
+    "PlaceName" : "Paris Charles de Gaulle",
+    "CountryId" : "FR-sky",
+    "RegionId" : "",
+    "CityId" : "PARI-sky",
+    "CountryName" : "France"
+  }, {
+    "PlaceId" : "ORY-sky",
+    "PlaceName" : "Paris Orly",
+    "CountryId" : "FR-sky",
+    "RegionId" : "",
+    "CityId" : "PARI-sky",
+    "CountryName" : "France"
+  }, {
+    "PlaceId" : "BVA-sky",
+    "PlaceName" : "Paris Beauvais",
+    "CountryId" : "FR-sky",
+    "RegionId" : "",
+    "CityId" : "PARI-sky",
+    "CountryName" : "France"
+  }, {
+    "PlaceId" : "LTQ-sky",
+    "PlaceName" : "Le Touquet Paris Plag",
+    "CountryId" : "FR-sky",
+    "RegionId" : "",
+    "CityId" : "LETO-sky",
+    "CountryName" : "France"
+  } ]
+}

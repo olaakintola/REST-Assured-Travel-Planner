@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<meta name = "viewport" content="width = device-width, intial-scale = 1">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+		<style type="text/css">
+
+			.footer {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: white;
+				color: black;
+				text-align: left;
+				padding-right: 1%;
+			}
+
+		</style>
+
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script src="javascript/script.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		  <div class="row">
+		    <div class="col">
+		    	<h1>REST Assured Travel Planner</h1>
+		    </div>
+		    <div class="col-md-auto">
+		    </div>
+		    <div class="col col-lg-2">
+ 		    	<button type="button" class="btn btn-outline-info">Terms and Conditions</button>
+		    </div>
+		  </div>
+		</div>
+		<hr style="color: green; display: block;" >
+
+		<div class="container">
+			<div class="row">
+				<div class="col-8"><h3>Find Deals on Adventure Trips</h3>
+					<div class="row">
+						<form class="form-inline" action="/showBooking" method="post">
+						  <div class="form-group mb-2">
+							<label for="bookingText">Retrieve Booking Reservation</label>
+						  </div>
+						  <div class="form-group mx-sm-3 mb-2">
+						    <label for="inputBookingReference" class="sr-only">Booking ID</label>
+						    <input type="text" class="form-control" id="inputBookingReference" name= "inputBookingReference" placeholder="Enter Booking ID">
+						  </div>
+						  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+						</form>
+					</div>
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="picfolder/safari.jpg" alt="First slide">
+ 					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="picfolder/ski.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="picfolder/venice.jpg" alt="Third slide">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<h4>Choose Flights</h4>
+					<form action="/processFlightsForm" method="post" >
+						<div class="row">
+							<div class="col">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" placeholder="Name..." name="name" required="required">
+							</div>
+						</div>
+						<div class="row">
+						<div class="col">
+							<label for="cityOfOrigin">City Of Origin</label>
+							<input type="text" class="form-control" name="cityOfOrigin" required="required">
+					    </div>
+						<div class="col">
+							<label for="countryOfOrigin">Country of Origin</label>
+							<input type="text" class="form-control" name="countryOfOrigin" required="required">
+					    </div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="cityOfDestination">City Of Destination</label>
+							<input type="text" class="form-control" name="cityOfDestination" required="required">
+					    </div>
+						<div class="col">
+							<label for="countryOfDestination">Country of Destination</label>
+							<input type="text" class="form-control" name="countryOfDestination" required="required">
+					    </div>
+					</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="oneWayTrip" id="oneWayTripRadio1" value="true" required="required">
+						  <label class="form-check-label" for="inlineRadio4">One Way</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="oneWayTrip" id="oneWayTripRadio2" value="false" required="required">
+						  <label class="form-check-label" for="inlineRadio5">Return Trip</label>
+						</div>
+						<br>
+					<div class="row">
+						<div class="col">
+					<div class="form-group">
+							<label for="outboundDate">Outbound Date:</label>
+							<br>
+							<input type="date" id="outboundDate" name="outboundDate" min="2020-11-28" max="2021-12-31">
+					  </div>
+					</div>
+						<div class="col">
+					  <div class="form-group">
+							<label for="returnDate">Return Date:</label>
+							<br>
+							<input type="date" id="returnDate" name="returnDate" min="2020-11-28" max="2021-12-31">
+					  </div>
+					</div>
+					</div>
+						<div class="form-check form-check-inline">
+ 						<input class="form-check-input" type="radio" name="currency" id="currencyRadio1" value="GBP" required="required">
+						  <label class="form-check-label" for="inlineRadio1" >Pound</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="currency" id="currencyRadio2" value="USD" required="required">
+						  <label class="form-check-label" for="inlineRadio2">US Dollars</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" type="radio" name="currency" id="currencyRadio3" value="EUR" required="required">
+						  <label class="form-check-label" for="inlineRadio3">EUR</label>
+						</div>
+						<br><br>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		 <div class="footer">
+		 	<p>&copy; 2021 Email: <a href="mailto:olanipekun.akintola@ucdconnect.ie">olanipekun.akintola@ucdconnect.ie</a>.</p>
+ 		 </div>
+
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	</body>
+	</html>
